@@ -1,0 +1,62 @@
+.img {
+    height: auto;
+    width: 100px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(226, 43, 122);
+    padding: 10px;
+}
+
+.input-label {
+    display: block;
+    margin-top: 8px;
+    color: rgb(119, 20, 185);
+}
+
+input[type="text"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid rgb(113, 226, 234);
+}
+
+button {
+    padding: 15px 20px;
+    font-size: 18px;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Generate {
+    background-color: blue;
+}
+
+.Generate:disabled {
+    background-color: antiquewhite;
+    cursor: not-allowed;
+}
+
+.Download {
+    background-color: #74d90e;
+    margin-left: 10px;
+}
+
+.Download:hover {
+    background-color: #74d90e;
+}
